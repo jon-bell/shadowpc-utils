@@ -16,13 +16,15 @@
     "getComments": "tsx src/getComments.ts",
     "analyzeComments": "tsx src/analyzeComments.ts",
     "filterAuthors": "tsx src/filterAuthors.ts",
-    "pcCommentStats": "tsx src/pcCommentStats.ts"
+    "pcCommentStats": "tsx src/pcCommentStats.ts",
+    "postReviews": "tsx src/postReviews.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.4",
     "bottleneck": "^2.19.5",
+    "csv-parse": "^6.1.0",
     "express": "^4.19.2",
     "googleapis": "^142.0.0",
     "jotform": "^1.0.1",
